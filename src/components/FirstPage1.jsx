@@ -11,7 +11,7 @@ const FirstPage1 = () => {
     <Slide>
       <div className="each-slide-effect">
           <div className='Carousal' style={{ 'backgroundImage': `url(${image})` }}>
-            <div>
+            <div className='shadowEffect'>
               <h1>MAINTENANCE</h1>
             </div>
             <button> Learn More </button>
@@ -19,7 +19,7 @@ const FirstPage1 = () => {
       </div>
       <div className="each-slide-effect">
         <div className='Carousal' style={{ 'backgroundImage': `url(${image1})` }}>
-          <div>
+        <div className='shadowEffect'>
             <h1>COMISSIONING</h1>
           </div>
           <button> Learn More </button>
@@ -27,8 +27,8 @@ const FirstPage1 = () => {
       </div>
       <div className="each-slide-effect">
           <div className='Carousal' style={{ 'backgroundImage': `url(${image2})` }}>
-            <div>
-              <h1>INSTALLATION</h1>
+          <div className='shadowEffect'>
+          <h1>INSTALLATION</h1>
            </div>
            <button> Learn More </button>
           </div>

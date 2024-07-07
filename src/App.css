@@ -9,37 +9,65 @@
 
 header {
   background-color: #1c4444;
+  .headerName{
+    span{
+      font-size: clamp(2.5vh, 2vw, 3vw);
+    }
+    div {
+      font-size: clamp(2vh, 1.5vw, 2.5vw);
+    }
+
+  }
+  .headerList:hover {
+    opacity: 0.6;
+   }
 }
 
 .image1{
-  /* background-image: url(../src/assets/fseworks-technicians.jpg); */
-  /* opacity: 0.5; */
   height: 80vh;
   object-fit:fill
 }
 
 .Carousal {
   display: flex;
+  /* opacity:0.7; */
   flex-direction: column;
-  font-size: 4vw;
-  color: black;
+  font-size: clamp(3.5vh, 3vw, 3.5vw);
+  font-weight: 900;
+  color: #f5b404;
   align-items: center;
   justify-content: center;
   background-repeat: no-repeat;
-  box-shadow: 5px 10px 20px 5px #1c4444 inset;
   background-position: center center;
   background-size: cover;
   height: 80vh;
+  .shadowEffect{
+    background-color: rgba(28, 68, 68, 0.6);
+    box-shadow: 0px 26px 350px 100px #1c4444;
+  
+  }
 }
 
 .each-slide-effect button {
   padding: 1vw;
-  font-size: 2vw;
+  font-size: clamp(2.5vh, 2vw, 3vw);
   color: #1c4444;
   background: #f5b404;
   text-align: center;
 }
 
+
+
+/* Media Queries */
+
+@media ( max-width:720px ) {
+  header{
+    nav{
+      display: none;
+    }
+  }
+  
+}
 
 /* 
 .logo {
