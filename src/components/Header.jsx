@@ -8,8 +8,8 @@ const headerItem=['HOME', 'SERVICES', 'PROJECTS', 'ABOUT US', 'CONTACT US']
       <div className="container mx-auto flex justify-between items-center pt-6">
       <div className="flex items-center">
         <img src={companyLogo} alt="Company Logo" className="h-16 mr-10" /> {/* Adjust height and margin as needed */}
-        <span className="text-4xl font-bold text-left">MIND TECH
-        <div className="text-xl font-bold text-left">Packaging Technical Resources</div>
+        <span className="text-4xl font-bold text-left">MIND TECH SERVICES
+        <div className="text-xl font-bold text-left">Field Services and Consultation </div>
         </span> 
       </div>
         <nav>
