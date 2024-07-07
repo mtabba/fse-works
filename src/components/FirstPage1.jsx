@@ -1,9 +1,11 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-import image from '../assets/fseworks-technicians.jpg'; 
-import image1 from '../assets/commissioning.jpg'; 
-import image2 from '../assets/installation.jpg'; 
+import image from '../assets/maintenance.jpg'; 
+import image1 from '../assets/comissioning.jpg'; 
+import image2 from '../assets/intall-commisiion.jpg'; 
+import image3 from '../assets/operations.jpg'; 
+import image4 from '../assets/overhauling.jpg'; 
 
 const FirstPage1 = () => {
 
@@ -33,6 +35,23 @@ const FirstPage1 = () => {
            <button> Learn More </button>
           </div>
       </div>
+      <div className="each-slide-effect">
+          <div className='Carousal' style={{ 'backgroundImage': `url(${image3})` }}>
+          <div className='shadowEffect'>
+          <h1>PLANT OPERATIONS</h1>
+           </div>
+           <button> Learn More </button>
+          </div>
+      </div>
+      <div className="each-slide-effect">
+          <div className='Carousal' style={{ 'backgroundImage': `url(${image4})` }}>
+          <div className='shadowEffect'>
+          <h1>OVAERHAULING</h1>
+           </div>
+           <button> Learn More </button>
+          </div>
+      </div>
+
    </Slide>
   
 )}
