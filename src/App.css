@@ -9,7 +9,16 @@
 
 header {
   background-color: #1c4444;
+  text-align: left;
+  img{
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px #1c4444;
+    height:max-content;
+    width: clamp(9vh, 6vw, 15vw);
+    margin-right: 2vw;
+  }
   .headerName{
+    color: #1c4444;
     span{
       font-size: clamp(2.5vh, 2vw, 3vw);
     }
@@ -23,17 +32,15 @@ header {
    }
 }
 
-.image1{
-  height: 80vh;
-  object-fit:fill
-}
-
 .Carousal {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   height: 90vh;
   .shadowEffect{
+    
+    padding-bottom: 30vh;
+    padding-top: 40vh;
     background-color: rgba(28, 68, 68, 0.6);
     box-shadow: 0px 26px 350px 100px #1c4444;  
   }

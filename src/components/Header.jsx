@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
+import companyLogo from '../assets/companylogo.jpg'; 
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
  
 export default function Header() {
     return (
@@ -9,17 +9,21 @@ export default function Header() {
             <Navbar expand="lg"
                     bg="warning">
                 <Container>
-                    <Navbar.Brand href="#home">
-                        GeeksforGeeks
+                    <Navbar.Brand href="#home" className="d-flex">
+                    <img src={companyLogo} alt="logo" className="logo"/>
+                    <div className="headerName">
+                      <span>MIND TECH SERVICES</span>
+                      <div>Field Services and Consultation</div>
+                      </div>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#c++">Services</Nav.Link>
-                            <Nav.Link href="#android">Projects</Nav.Link>
-                            <Nav.Link href="#spring">About Us</Nav.Link>
-                            <Nav.Link href="#python">Contact Us</Nav.Link>
+                            <Nav.Link href="#">Services</Nav.Link>
+                            <Nav.Link href="#">Projects</Nav.Link>
+                            <Nav.Link href="#">About Us</Nav.Link>
+                            <Nav.Link href="#">Contact Us</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
