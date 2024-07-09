@@ -9,7 +9,7 @@ export default function Header() {
             <Navbar expand="lg"
                     bg="warning">
                 <Container>
-                    <Navbar.Brand href="#home" className="d-flex">
+                    <Navbar.Brand href="#" className="d-flex">
                     <img src={companyLogo} alt="logo" className="logo"/>
                     <div className="headerName">
                       <span>MIND TECH SERVICES</span>
@@ -19,7 +19,7 @@ export default function Header() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link href="#">Home</Nav.Link>
                             <Nav.Link href="#">Services</Nav.Link>
                             <Nav.Link href="#">Projects</Nav.Link>
                             <Nav.Link href="#">About Us</Nav.Link>
