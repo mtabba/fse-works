@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import Header from './components/Header'
 import FirstPage1 from './components/FirstPage1'
+import AboutUs from './components/AboutUs';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <>
     <Header/>
     <FirstPage1/>
+    <AboutUs/>
 
     </>
   )

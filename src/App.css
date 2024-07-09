@@ -14,16 +14,16 @@ header {
     border-radius: 10px;
     box-shadow: 0px 0px 20px 1px #1c4444;
     height:max-content;
-    width: clamp(9vh, 6vw, 15vw);
+    width: clamp(8vh, 6vw, 15vw);
     margin-right: 2vw;
   }
   .headerName{
     color: #1c4444;
     span{
-      font-size: clamp(2.5vh, 2vw, 3vw);
+      font-size: clamp(2vh, 2vw, 3vw);
     }
     div {
-      font-size: clamp(2vh, 1.5vw, 2.5vw);
+      font-size: clamp(1.5vh, 1.5vw, 2.5vw);
     }
 
   }
@@ -65,6 +65,12 @@ header {
     }
   }
   
+}
+
+.aboutUsContainer{
+height: 100vh;
+display: flex;
+place-content:center;
 }
 
 /* 
