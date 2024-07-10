@@ -14,97 +14,59 @@ const FirstPage1 = () => {
     <div className="each-slide-effect">
       <Carousel fade>
       <Carousel.Item 
-      style={{'backgroundImage': `url(${image})`}}
+      // style={{'backgroundImage': `url(${image})`}}
       className='Carousal'>
+        <img src={image} alt="" />
         <Carousel.Caption 
         className='shadowEffect'>
           <h1>MAINTENANCE</h1>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           <button> Learn More</button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item 
-      style={{'backgroundImage': `url(${image1})`}}
+      // style={{'backgroundImage': `url(${image1})`}}
       className='Carousal'>
+        <img src={image1} alt="" />
         <Carousel.Caption className='shadowEffect'>
           <h1>COMMISSIONING</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
           <button> Learn More</button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item 
-      style={{'backgroundImage': `url(${image2})`}}
+      // style={{'backgroundImage': `url(${image2})`}}
       className='Carousal'>
+       <img src={image2} alt="" />
         <Carousel.Caption className='shadowEffect'>
           <h1>INSTALLATION</h1>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          {/* <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
           <button> Learn More</button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item 
-      style={{'backgroundImage': `url(${image3})`}}
+      // style={{'backgroundImage': `url(${image3})`}}
       className='Carousal'>
-        <Carousel.Caption className='shadowEffect'>
+        <img src={image3} alt="" />
+          <Carousel.Caption className='shadowEffect'>
           <h1>PLANT OPERATIONS</h1>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          {/* <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
           <button> Learn More</button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item 
-      style={{'backgroundImage': `url(${image4})`}}
+      // style={{'backgroundImage': `url(${image4})`}}
       className='Carousal'>
+       <img src={image4} alt="" />
         <Carousel.Caption className='shadowEffect'>
           <h1>OVERHAULING</h1>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          {/* <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
           <button> Learn More</button>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
     </div>
-    // <div className="slideContainer">
-    // <Slide>
-    //   <div className="each-slide-effect">
-    //       <div className='Carousal' style={{ 'backgroundImage': `url(${image})` }}>
-    //         <div className='shadowEffect'>
-    //           <h1>MAINTENANCE</h1>
-    //         </div>
-    //         <button> Learn More </button>
-    //       </div>
-    //   </div>
-    //   <div className="each-slide-effect">
-    //     <div className='Carousal' style={{ 'backgroundImage': `url(${image1})` }}>
-    //     <div className='shadowEffect'>
-    //         <h1>COMISSIONING</h1>
-    //       </div>
-    //       <button> Learn More </button>
-    //       </div>
-    //   </div>
-    //   <div className="each-slide-effect">
-    //       <div className='Carousal' style={{ 'backgroundImage': `url(${image2})` }}>
-    //       <div className='shadowEffect'>
-    //       <h1>INSTALLATION</h1>
-    //        </div>
-    //        <button> Learn More </button>
-    //       </div>
-    //   </div>
-    //   <div className="each-slide-effect">
-    //       <div className='Carousal' style={{ 'backgroundImage': `url(${image3})` }}>
-    //       <div className='shadowEffect'>
-    //       <h1>PLANT OPERATIONS</h1>
-    //        </div>
-    //        <button> Learn More </button>
-    //       </div>
-    //   </div>
-    //   <div className="each-slide-effect">
-    //       <div className='Carousal' style={{ 'backgroundImage': `url(${image4})` }}>
-    //       <div className='shadowEffect'>
-    //       <h1>OVAERHAULING</h1>
-    //        </div>
-    //        <button> Learn More </button>
-    //       </div>
-    //   </div>
-    //   </Slide>
-    //   </div>
+
 )}
 
 export default FirstPage1
