@@ -1,7 +1,5 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-// import ExampleCarouselImage from 'components/ExampleCarouselImage';
-
 import image from '../assets/maintenance.jpg'; 
 import image1 from '../assets/comissioning.jpg'; 
 import image2 from '../assets/intall-commisiion.jpg'; 
