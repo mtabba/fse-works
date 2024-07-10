@@ -160,7 +160,7 @@ place-content:center;
 
 .Service_content h3 {
   font-size: clamp(2vh, 2vw, 3vw);
-  margin-bottom: 4vh;
+  margin-bottom: 2vh;
 }
 
 .Service_content img {
@@ -171,7 +171,7 @@ place-content:center;
 
 .Service_content p {
   margin-top: 3vh;
-  font-size: clamp(1vh, 1.25vw, 2vw);
+  font-size: clamp(1.2vh, 1.35vw, 2vw);
 }
 
 
