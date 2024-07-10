@@ -84,7 +84,7 @@ place-content:center;
   margin-top: 10vh;
   text-align: justify;
   h6{
-    font-size: clamp(2.5vh, 1.5vw, 3vw);
+    font-size: clamp(2vh, 1.5vw, 3vw);
   }
 }
 
