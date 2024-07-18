@@ -97,29 +97,25 @@ place-content:center;
 
 
 .servicesContainer {
-  height: 65vh; /* Adjust as needed */
-  overflow: hidden;
+  height: 85vh; /* Adjust as needed */
 }
 
-.floating-cards {
+.card-container {
   display: flex;
-  justify-content: flex-end;
-  overflow: hidden;
+  justify-content: space-around;
 }
 
 .floating-card {
-  margin: 0 10px;
-  height: fit-content; /* Adjust to desired height */
+  margin: 10px;
   width: 25vw; /* Adjust width as needed */
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-
-
+  transition: transform 0.3s ease;
 }
 
-.floating-cards:hover .floating-card {
-  animation-play-state: paused; /* Pause animation on hover */
+.floating-card:hover {
+  transform: scale(1.05); /* Enlarge on hover */
 }
 
 .floating-card .card-img-top {
@@ -127,6 +123,8 @@ place-content:center;
   height: 30vh; /* Adjust as needed */
   object-fit: cover;
 }
+
+
 
 /* -----------Service Section ---------------------- */
 .Service_section {
@@ -173,6 +171,88 @@ place-content:center;
   margin-top: 3vh;
   font-size: clamp(1.2vh, 1.35vw, 2vw);
 }
+
+/* Projects  */
+
+
+
+/* Footer Section  */
+.footer {
+  background-color: #1c4444;
+  color: white;
+  text-align: center;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-links a {
+  color: #f5b404;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Us Section */
+.contact-container {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1c4444;
+}
+
+.contact-container h4 {
+  margin-bottom: 15px;
+  color: #1c4444;
+}
+
+.contact-container .form-control {
+  border-radius: 5px;
+}
+
+.contact-container .btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f5b404;
+  color: white;
+}
+
+.contact-container .btn:hover {
+  background-color: #e4a900;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .contact-container {
+      padding: 15px;
+  }
+
+  .contact-container h1 {
+      font-size: 2.5rem;
+  }
+
+  .contact-container h4 {
+      font-size: 1.5rem;
+  }
+}
+
 
 
 /* ---------------------------------------------- */

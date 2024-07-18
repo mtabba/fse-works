@@ -8,31 +8,31 @@ import installCommImage from '../assets/intall-commisiion.jpg';
 import operationsImage from '../assets/operations.jpg'; 
 import overhaulingImage from '../assets/overhauling.jpg'; 
 
-const International = () => {
+const Local = () => {
   const cards = [
     {
-      title: 'Yaman',
-      text: 'Yaman SBO14 blowing matrix, labeller rollquttro F35 & air conveyors',
+      title: 'Gourmet Beverage Faisalabad',
+      text: 'Complete line commissioning, installation & start-up with krones team',
       img: maintenanceImage,
     },
     {
-      title: 'Pepsi Africa Beverages Company',
-      text: 'Line speed 40k BPH. Technology Sidel. Complete sidel line dismantle, on loading in shipment, offloading, machine placement, commissioning, installation, dry running, production.',
+      title: 'Pepsi Peshawar',
+      text: 'Pepsi Peshawar NBL-Sidel Plant 54k 500ml, 345ml, 300ml BPH l/45k BPH 1500ml super combi. Shipment, offloading, all machine placement, commissioning, installation, production start-up.',
       img: commissioningImage,
     },
     {
-      title: 'Dubai',
-      text: 'Completed sidel line commissioning, installation & production start-up. Blowing SBO14 universal, filler, capper arol, labeller rollquttro, SMI & pallatizer',
+      title: 'Tricon Beverage Faisalabad',
+      text: '2 used line installation, commissioning, production start-up.',
       img: installCommImage,
     },
     {
-      title: 'Saudi-Arabia',
-      text: 'Completed 3 projects of sacmi & sidel plant overhauling. Blowing, labeller filler & capper.',
+      title: 'Pepsi Punjab Beverages',
+      text: '3 blowing & 3 labeller machine overhauling. Installation and production start-up.',
       img: operationsImage,
     },
     {
-      title: 'Qatar',
-      text: 'Finalized a project sidel blowing overhauling & FT system installation.',
+      title: 'Coca Cola Lahore',
+      text: 'Plant overhauling of sidel rollquattro F14 & sidel blowing overhauling.',
       img: overhaulingImage,
     },
   ];
@@ -40,7 +40,7 @@ const International = () => {
   return (
     <div className="servicesContainer">
       <hr />
-      <h1>International Clients</h1>
+      <h1>Pakistani Clients</h1>
       <Carousel controls={false} indicators={true} interval={3000}>
         {cards.reduce((acc, card, index) => {
           if (index % 3 === 0) acc.push([]);
@@ -66,4 +66,4 @@ const International = () => {
   );
 }
 
-export default International;
+export default Local;
